@@ -441,15 +441,18 @@ main h3{
   line-height: 2;
   width: 170px;
   position: absolute;
-  padding-left: 10px;
   top: 41px;
 }
 .select_list a{
   color: black;
   font-size: 14px;
-  padding: 5px 0 0 0;
+  padding: 5px 0 0 10px;
   display: block;
 
+}
+.select_list a:hover{
+  background-color: #06123A;
+  color: white;
 }
 
 footer {
